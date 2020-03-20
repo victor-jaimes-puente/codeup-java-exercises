@@ -2,6 +2,7 @@ public class ControlFlowExercises {
     public static void main(String[] args) {
 
 //test
+//test2
         long i = 2;
         do {
 
