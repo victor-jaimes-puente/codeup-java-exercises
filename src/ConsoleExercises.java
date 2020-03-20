@@ -6,11 +6,20 @@ public class ConsoleExercises {
 //        System.out.printf("Pi is almost %s \n", pi);
 
 //SCANNER SECTION
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter something here: ");
-        long userInput = scanner.nextInt();
+        System.out.print("Enter the width in feet here: ");
+        long width = sc.nextInt();
+        System.out.print("Enter the length in feet here: ");
+        long length = sc.nextInt();
+        long areaOfClassRoom = length * width;
+        long perimiterOfClassRoom = (width * 2) + (length * 2);
 
-        System.out.printf("This is what your printed %s", userInput);
+        System.out.printf("The number you input were: %s %s\n", width, length);
+        System.out.printf("The area of your class room is: %s\n", areaOfClassRoom);
+        System.out.printf("The perimiter of your classroom is: %s",perimiterOfClassRoom);
+
+
+
     }
 }
