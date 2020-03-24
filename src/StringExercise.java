@@ -1,5 +1,5 @@
 public class StringExercise {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 //        System.out.println("We don't need no thought control");
 //        System.out.println("Check \"this\" out!, \"s inside of \"s! ");
 //        System.out.println("In windows, the main drive is usually C:\\");
@@ -17,12 +17,14 @@ public class StringExercise {
         String Replaced = Education.replace("We", "They");
         System.out.println(Replaced);
         System.out.println(Education);
-        String word = Education.substring(0,8);
+        String word = Education.substring(0, 8);
         System.out.println(word);
         String CAPITlAIZED = Replaced.toUpperCase();
         System.out.println(CAPITlAIZED);
         String Trimmed = Replaced.trim().toUpperCase();
         System.out.println(Trimmed);
+    }
+}
 
 
 
