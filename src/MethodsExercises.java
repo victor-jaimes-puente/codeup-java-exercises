@@ -59,5 +59,29 @@ public class MethodsExercises {
 //    }
 
 //SECTION 4 DICE
-    
+public static void testExercise04() {
+
+    System.out.println("Welcome to the dice app. you can use the app for playing board games./n");
+    System.out.print("How many dice do you want? (1 to 8) ");
+    int numDice = getInteger(1, 8);
+    System.out.print("How many sides do you want on each die? (1 to 8) ");
+    int numSides = getInteger(1, 8);
+
+    while(true) {
+        System.out.print("Hit enter to roll the dice, enter 1 to exit ");
+        String response = scanner.nextLine();
+        if (response.length() != 0) break;
+        System.out.println();
+
+        int diceSum = 0;
+        System.out.print("Dice: ");
+        for (int i = 0; i < numDice; i++) {
+            int diceValue = (int) (Math.random() * numSides) + 1;
+            System.out.printf("%1d ", diceValue);
+            diceSum += diceValue;
+        }
+        System.out.printf("\nThe sum of all dice: %1d\n\n", diceSum);
+    }
+}
+
 }
