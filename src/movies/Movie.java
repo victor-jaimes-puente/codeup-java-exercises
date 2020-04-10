@@ -4,7 +4,7 @@ public class Movie {
     private String name;
     private String catagory;
 
-    public  Movie(String name, String Catagory){
+    public  Movie(String name, String catagory){
         setName(name);
         setCatagory(catagory);
     }
@@ -14,7 +14,7 @@ public class Movie {
     }
     public void setName(String name){ this.name = name;}
 
-    public String getCatagory(){
+    public String getCategory(){
         return this.catagory;
     }
     public void setCatagory(String catagory){
