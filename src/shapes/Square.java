@@ -1,6 +1,8 @@
 package shapes;
 
-public class Square {
+import java.util.logging.SocketHandler;
+
+public class Square extends Shape implements Measurable {
 //    protected double side;
 //
 //    public Square(double side){
@@ -16,4 +18,14 @@ public class Square {
 public static void main(String[] args) {
 
 }
+
+    @Override
+    public double getPerimeter() {
+        return 0;
+    }
+
+    @Override
+    public double getArea() {
+        return 0;
+    }
 }
