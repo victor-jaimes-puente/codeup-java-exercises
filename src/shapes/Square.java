@@ -1,7 +1,5 @@
 package shapes;
 
-import java.util.logging.SocketHandler;
-
 public class Square extends Shape implements Measurable {
 //    protected double side;
 //
