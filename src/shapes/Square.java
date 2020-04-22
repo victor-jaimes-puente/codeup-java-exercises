@@ -1,6 +1,7 @@
 package shapes;
 
 public class Square extends Shape implements Measurable {
+
 //    protected double side;
 //
 //    public Square(double side){
