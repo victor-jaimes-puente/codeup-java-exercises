@@ -8,6 +8,12 @@ public class Rectangle {
         this.length = length;
         this.width = width;
     }
+    public double getArea() {
+        return this.length * this.width;
+    }
+    public double getPerimiter(){
+        return  this.length * this.width;
+    }
 //    MAIN
 public static void main(String[] args) {
 
