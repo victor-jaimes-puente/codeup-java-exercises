@@ -1,0 +1,78 @@
+
+!    Why are import statements important.
+Allows import of util.
+allows us to connect different classes.
+    Why is the scanner important?
+this is how we get input from the user.
+can be used to scan text docs and strings.
+    Comparing strings:
+cant compare a stirng the same way we did in JS. Now we must use *
+                                                                   if ("I am a string".equals("I am a string")) {
+                                                                       System.out.println("Strings are equal");
+                                                                   }
+                                                                 *
+ !   String Manipulation:
+very similar to JS can look up if needed.
+  !  Defining Methods:
+Most basic syntax:
+*
+public static String sayHello(String name) {
+    return String.format("Hello, %s!", name);
+}
+*
+Let's take a look at all the individual pieces of the method definition in the example above:
+
+public -- this is the visibility modifier.
+
+This defines whether or not other classes can see this method. For now, just put public here.
+
+static -- the presence of this keyword defines that the method belongs to the class, as opposed to instances of it.
+
+For now, we will define all of our methods as static. We'll explore this concept in more detail in the next lesson.
+
+String -- this is the return type of the method.
+
+In Java, all methods must define the type of the value they will return. If a method does not return anything, the special keyword void is used here.
+
+If a method defines a return type, it must have a return statement. It is a compile time error for a method that defines a return type to not return anything, or to return a value of a type other than the one that is specified.
+
+If a method's return type is void, it is a compile time error to return anything inside of the method; however, methods with a void return type can still use the return keyword to exit the method early.
+
+sayHello -- the name of the method.
+
+Method names follow the same rules as variable names.
+
+(String name) -- the parameter the method accepts.
+
+A method can be defined with no parameters, one parameter (like in our example), or multiple parameters (separated by commas). A type must be specified for each parameter.
+
+Everything inside the curly braces is the body of the method.
+
+!   Arrays:
+        Very similar to the way we use them in JS except the length is required to be declared when the Array is
+        declared. If the length of the array needs to be changed the array needs to be declared again with the new length.
+        this seems to be more complicated but array lists help mitigate this issue.
+!   Array class:
+used with java.util.Arrays
+contains static methods for common array manipulation tasks.
+common methods :
+void Arrays.fill(arrayName, value)
+
+Fills all elements of the specified array with the specified value.
+boolean Arrays.equals(array1, array2)
+
+Returns true if both arrays are of the same type and all of the elements within the arrays are equal to each other.
+array Arrays.copyOf(array, length)
+
+Returns a copy of the given array with the specified length.
+String Arrays.toString(array)
+
+Returns a string representation of the array.
+void Arrays.sort(array)
+
+Sorts the elements of an array into ascending order.
+
+
+
+
+

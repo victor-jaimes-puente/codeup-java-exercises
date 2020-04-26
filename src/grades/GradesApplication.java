@@ -7,7 +7,7 @@ public class GradesApplication {
     public static void main(String[] args) {
         HashMap<String, Student> students = new HashMap<>();
 
-        Student bob = new Student("Bob");
+        Student bob = new Student("Alpha");
         bob.addGrade(70);
         bob.addGrade(75);
         bob.addGrade(80);
@@ -17,7 +17,7 @@ public class GradesApplication {
         bob.recordAttendance("2020-01-04", "A");
         bob.recordAttendance("2020-01-05", "P");
 
-        Student jane = new Student("Jane");
+        Student jane = new Student("Bravo");
         jane.addGrade(80);
         jane.addGrade(85);
         jane.addGrade(90);
@@ -25,9 +25,9 @@ public class GradesApplication {
         jane.recordAttendance("2020-01-02", "A");
         jane.recordAttendance("2020-01-03", "P");
         jane.recordAttendance("2020-01-04", "A");
-        jane.recordAttendance("2020-01-05", "P");
+        jane.recordAttendanceh("2020-01-05", "P");
 
-        Student john = new Student("John");
+        Student john = new Student("Charlie");
         john.addGrade(50);
         john.addGrade(55);
         john.addGrade(60);
@@ -37,7 +37,7 @@ public class GradesApplication {
         john.recordAttendance("2020-01-04", "P");
         john.recordAttendance("2020-01-05", "A");
 
-        Student cindy = new Student("Cindy");
+        Student cindy = new Student("Delta");
         cindy.addGrade(90);
         cindy.addGrade(95);
         cindy.addGrade(100);
@@ -47,10 +47,10 @@ public class GradesApplication {
         cindy.recordAttendance("2020-01-04", "P");
         cindy.recordAttendance("2020-01-05", "P");
 
-        students.put("gitbob", bob);
-        students.put("gitjane", jane);
-        students.put("gitjohn", john);
-        students.put("gitcindy", cindy);
+        students.put("gitbob", Alpha);
+        students.put("gitjane", Bravo);
+        students.put("gitjohn", Charlie);
+        students.put("gitcindy", Delta);
 
         String student = "";
         String choice = "";

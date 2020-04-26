@@ -3,7 +3,7 @@ package grades;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-
+//MAIN
 public class Student {
     public static void main(String[] args) {
         Student bob = new Student("Bob");
@@ -25,12 +25,10 @@ public class Student {
         this.attendance = new HashMap<>();
     }
 
-    // returns the student's name
     public String getName() {
         return this.name;
     }
 
-    // adds the given grade to the grades property
     public void addGrade(int grade) {
         this.grades.add(grade);
     }
@@ -39,7 +37,6 @@ public class Student {
         return this.grades;
     }
 
-    // returns the average of the students grades
     public double getGradeAverage() {
         int sum = 0;
 
